@@ -19,7 +19,7 @@ function Profile() {
   return (
     <section className="profile">
       <div className="left-column">
-        <img src={headshot} className="profile-image" />
+        <img src={`${process.env.PUBLIC_URL}/assets/linkedin.jpg`} className="profile-image" />
         <h1>I'm Yash Shah</h1>
         <p>Software Engineer. Entrepreneur. Enthusiast.</p>
       </div>
