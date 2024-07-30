@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import headshot from '../../assets/linkedin.jpg'
 
 function Profile() {
 
@@ -18,7 +19,7 @@ function Profile() {
   return (
     <section className="profile">
       <div className="left-column">
-        <img src="/assets/linkedin.jpg" className="profile-image" />
+        <img src={headshot} className="profile-image" />
         <h1>I'm Yash Shah</h1>
         <p>Software Engineer. Entrepreneur. Enthusiast.</p>
       </div>

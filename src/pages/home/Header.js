@@ -1,12 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import logo_wo_whitespace from '../../assets/logo_wo_whitespace.png';
 
 function Header() {
   return (
     <header>
       <nav>
-        <NavLink to="/"><img src="/assets/logo_wo_whitespace.png" className="logo"></img></NavLink>
+        <NavLink to="/"><img src={logo_wo_whitespace} className="logo"></img></NavLink>
         <ul>
           <li><NavLink to="/projects" className={({ isActive }) => isActive ? 'active' : ''}>Projects</NavLink></li>
           {/*<li><NavLink to="/blog" className={({ isActive }) => isActive ? 'active' : ''}>Blog</NavLink></li>*/}
