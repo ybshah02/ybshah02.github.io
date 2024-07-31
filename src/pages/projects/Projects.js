@@ -29,28 +29,28 @@ const Projects = () => {
   const consultingProjects = [
       {
         name: "Draper Associates",
-        description: "Conducting a market deep-dive into decentralized governances and DAOs. Presented to Tim Draper.",
+        description: "Led 6 analysts in conducting a market deep-dive into decentralized governances and DAOs. Presented to Tim Draper.",
         image: "/assets/draper.svg",
         link: "https://www.draper.vc/",
         github: ""
       },
       {
         name: "Salesforce Ventures",
-        description: "Conducted a market deep dive into Cybersecurity and sourced 60 companies. Presented to entire investment board.",
+        description: "Led 8 analysts in conducting a market deep dive into Cybersecurity and sourced 60 companies. Presented to entire investment board.",
         image: "/assets/salesforce.svg",
         link: "https://salesforceventures.com/",
         github: ""
       },
       {
         name: "HP Tech Ventures",
-        description: "Conducted a deep dive into generative AI applications and sourced 80 companies. Presented to head of AI investments.",
+        description: "Led 9 analysts in conducting a deep dive into generative AI applications and sourced 80 companies. Presented to head of AI investments.",
         image: "/assets/hp.png",
         link: "https://hptechventures.com/",
         github: ""
       },
       {
         name: "The Fintech Fund",
-        description: "Scoping out landscape of LPs and founders in the United States on a team of analysts.",
+        description: "Led 5 analysts in scoping out landscape of LPs and founders in the United States on a team of analysts.",
         image: "/assets/fintechfund.png",
         link: "https://www.thefintechfund.com/community",
         github: ""
